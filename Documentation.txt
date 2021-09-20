@@ -14,4 +14,5 @@ void ConvertFromKeyValuePair(KeyValuePair<TKey, TValue> kvpx)
 Convert from the two types
 
 Dictionary<TKey, TValue> ToDictionary()
-Turn to dictionary
+List<KeyValuePair<TKey, TValue>> ToLKVP()
+Turn to the two types

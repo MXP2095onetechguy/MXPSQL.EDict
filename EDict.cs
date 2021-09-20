@@ -63,5 +63,11 @@ namespace MXPSQL.EDict{
             }
             return NewDict;
         }
+
+        public List<KeyValuePair<TKey, TValue>> ToLKVP(){
+            var list = this.ToList<KeyValuePair<TKey, TValue>>();
+
+            return list;
+        }
     }
 }
