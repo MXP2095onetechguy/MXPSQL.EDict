@@ -1,0 +1,17 @@
+This is an extended dictionary.
+Simmilar to normal dictionary, it has the same method except for these differences.
+
+The object type is known as ExtDictionary.
+
+Extension method:
+
+ExtDictionary<TKey, TValue> New()
+ExtDictionary<TKey, TValue> Clone()
+Clones the dictionary
+
+void ConvertFromDictionary(Dictionary<TKey, TValue> dict)
+void ConvertFromKeyValuePair(KeyValuePair<TKey, TValue> kvpx)
+Convert from the two types
+
+Dictionary<TKey, TValue> ToDictionary()
+Turn to dictionary
