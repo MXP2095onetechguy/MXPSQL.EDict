@@ -1,0 +1,12 @@
+C:\EDict\bin\Debug\net5.0\EDict.deps.json
+C:\EDict\bin\Debug\net5.0\EDict.dll
+C:\EDict\bin\Debug\net5.0\ref\EDict.dll
+C:\EDict\bin\Debug\net5.0\EDict.pdb
+C:\EDict\obj\Debug\net5.0\EDict.csprojAssemblyReference.cache
+C:\EDict\obj\Debug\net5.0\EDict.GeneratedMSBuildEditorConfig.editorconfig
+C:\EDict\obj\Debug\net5.0\EDict.AssemblyInfoInputs.cache
+C:\EDict\obj\Debug\net5.0\EDict.AssemblyInfo.cs
+C:\EDict\obj\Debug\net5.0\EDict.csproj.CoreCompileInputs.cache
+C:\EDict\obj\Debug\net5.0\EDict.dll
+C:\EDict\obj\Debug\net5.0\ref\EDict.dll
+C:\EDict\obj\Debug\net5.0\EDict.pdb

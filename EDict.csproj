@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>MXPSQL.EDict</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>MXPSQL</Authors>
+    <Company>MXPSQL</Company>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+	<ItemGroup>
+    		<None Include="mit.txt" Pack="true" PackagePath=""/>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MXPSQL.EDict</id>
+    <version>1.0.0</version>
+    <authors>MXPSQL</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\EDict\bin\Debug\net5.0\EDict.dll" target="lib\net5.0\EDict.dll" />
+    <file src="C:\EDict\mit.txt" target="mit.txt" />
+  </files>
+</package>
