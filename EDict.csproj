@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>MXPSQL.EDict</PackageId>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>MXPSQL</Authors>
     <Company>MXPSQL</Company>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -11,6 +11,7 @@
 
 	<ItemGroup>
     		<None Include="mit.txt" Pack="true" PackagePath="" />
+        <None Include="Documentation.txt" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 	<ItemGroup>

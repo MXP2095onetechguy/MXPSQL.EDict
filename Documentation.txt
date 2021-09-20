@@ -9,6 +9,7 @@ Extension method:
 Clones the dictionary
 ExtDictionary<TKey, TValue> New(), main method
 ExtDictionary<TKey, TValue> Clone(), for the interface
+string ToString(), see the ToCvs() method
 
 Dispose the Dictionary
 void Dispose(), dispose the Dictionary
@@ -18,6 +19,9 @@ void Delete(), same with Dispose()
 use these methods to convert from the listed types
 void ConvertFromDictionary(Dictionary<TKey, TValue> dict), convert from dictionary
 void ConvertFromKeyValuePair(KeyValuePair<TKey, TValue> kvpx), convert from keyvaluepair
+void ConvertFromJson(string json), convert from Json
+// void ConvertFromCsv(string csvtr), convert from csv
+// void ConvertFromCvs(string cvstr), same like ConvertFromCsv, but for mistaken ones
 
 
 Use these methods to turn to the listed types
@@ -26,3 +30,5 @@ List<KeyValuePair<TKey, TValue>> ToLKVP(), convert to list/keyvaluepair
 string ToJson(), convert to json with newtonsoft.json
 string ToCsv(), convert to csv with csvhelper
 string ToCvs(), the same except for mistaken ones
+string ToXML(), convert to xml
+string ToXml(), alt spelling for ToXML()
