@@ -21,7 +21,7 @@ namespace MXPSQL.EDict{
         };
     }
     // extensible dictionary
-    public class ExtDictionary<TKey, TValue> : Dictionary<TKey, TValue> where TValue : ICloneable, IDisposable, IFormattable
+    public class ExtDictionary<TKey, TValue> : Dictionary<TKey, TValue> where TValue : ICloneable, IFormattable
     {
         // original code
         /*
