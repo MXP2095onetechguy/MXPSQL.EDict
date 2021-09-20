@@ -5,14 +5,24 @@ The object type is known as ExtDictionary.
 
 Extension method:
 
-ExtDictionary<TKey, TValue> New()
-ExtDictionary<TKey, TValue> Clone()
+[Interface method]
 Clones the dictionary
+ExtDictionary<TKey, TValue> New(), main method
+ExtDictionary<TKey, TValue> Clone(), for the interface
 
-void ConvertFromDictionary(Dictionary<TKey, TValue> dict)
-void ConvertFromKeyValuePair(KeyValuePair<TKey, TValue> kvpx)
-Convert from the two types
+Dispose the Dictionary
+void Dispose(), dispose the Dictionary
+void Delete(), same with Dispose()
 
-Dictionary<TKey, TValue> ToDictionary()
-List<KeyValuePair<TKey, TValue>> ToLKVP()
-Turn to the two types
+[Non Interface method]
+use these methods to convert from the listed types
+void ConvertFromDictionary(Dictionary<TKey, TValue> dict), convert from dictionary
+void ConvertFromKeyValuePair(KeyValuePair<TKey, TValue> kvpx), convert from keyvaluepair
+
+
+Use these methods to turn to the listed types
+Dictionary<TKey, TValue> ToDictionary(), convert to normal dictionary
+List<KeyValuePair<TKey, TValue>> ToLKVP(), convert to list/keyvaluepair
+string ToJson(), convert to json with newtonsoft.json
+string ToCsv(), convert to csv with csvhelper
+string ToCvs(), the same except for mistaken ones

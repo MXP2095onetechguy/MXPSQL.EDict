@@ -47,6 +47,10 @@ namespace MXPSQL.EDict{
             this.Clear();
         }
 
+        public void Delete(){
+            Dispose();
+        }
+
         // convert from other to this
         public void ConvertFromDictionary(Dictionary<TKey, TValue> dict){
             foreach (KeyValuePair<TKey, TValue> kvp in dict){
