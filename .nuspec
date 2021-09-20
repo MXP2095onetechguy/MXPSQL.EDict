@@ -3,12 +3,14 @@
     <metadata>
         <!-- Required elements-->
         <id>MXPSQL.EDict</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <description>Extensible Dictionary</description>
         <authors>MXPSQL</authors>
 
         <!-- Optional elements -->
 	<license type="file">mit.txt</license>
+	<projectUrl>https://github.com/MXP2095onetechguy/MXPSQL.EDict</projectUrl>
+	<requireLicenseAcceptance>true</requireLicenseAcceptance>
         <!-- ... -->
     </metadata>
     <!-- Optional 'files' node -->
