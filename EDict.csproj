@@ -3,13 +3,18 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>MXPSQL.EDict</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>MXPSQL</Authors>
     <Company>MXPSQL</Company>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 	<ItemGroup>
-    		<None Include="mit.txt" Pack="true" PackagePath=""/>
+    		<None Include="mit.txt" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CsvHelper" Version="27.1.1" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 	</ItemGroup>
 </Project>

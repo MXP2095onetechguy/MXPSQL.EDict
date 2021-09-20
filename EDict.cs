@@ -1,12 +1,17 @@
 ﻿using System;
+using System.IO;
+using CsvHelper;
 using System.Linq;
+using Newtonsoft.Json;
 using System.Collections;
+using System.Globalization;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
 namespace MXPSQL.EDict{
+
     // extensible dictionary
-    public class ExtDictionary<TKey, TValue> : Dictionary<TKey, TValue> where TValue : ICloneable
+    public class ExtDictionary<TKey, TValue> : Dictionary<TKey, TValue> where TValue : ICloneable, IDisposable
     {
         // original code
         /*
@@ -35,6 +40,11 @@ namespace MXPSQL.EDict{
         // extended code
         public ExtDictionary<TKey, TValue> Clone(){
             return New();
+        }
+
+        // dispose method
+        public void Dispose(){
+            this.Clear();
         }
 
         // convert from other to this
@@ -68,6 +78,27 @@ namespace MXPSQL.EDict{
             var list = this.ToList<KeyValuePair<TKey, TValue>>();
 
             return list;
+        }
+
+        public string ToJson(){
+            var strs = JsonConvert.SerializeObject(this, Formatting.Indented);
+
+            return strs;
+        }
+
+        public string ToCsv(){
+            string res = "";
+            using(var swriter = new StringWriter())
+            using (var csv = new CsvWriter(swriter, CultureInfo.InvariantCulture))
+            {
+                csv.WriteRecords(this);
+            }
+
+            return res;
+        }
+
+        public string ToCvs(){
+            return ToCsv();
         }
     }
 }
