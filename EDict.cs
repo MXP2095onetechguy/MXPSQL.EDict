@@ -54,15 +54,6 @@ namespace MXPSQL.EDict{
             return New();
         }
 
-        // dispose method
-        public void Dispose(){
-            this.Clear();
-        }
-
-        public void Delete(){
-            Dispose();
-        }
-
         // convert from other to this
         public void ConvertFromDictionary(Dictionary<TKey, TValue> dict){
             foreach (KeyValuePair<TKey, TValue> kvp in dict){
