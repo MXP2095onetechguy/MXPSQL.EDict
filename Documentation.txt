@@ -30,5 +30,6 @@ List<KeyValuePair<TKey, TValue>> ToLKVP(), convert to list/keyvaluepair
 string ToJson(), convert to json with newtonsoft.json
 string ToCsv(), convert to csv with csvhelper
 string ToCvs(), the same except for mistaken ones
+string ToString(string? format, IFormatProvider? formatProvider), alias for tocvs so returns csv, these parameters have no purpose
 string ToXML(), convert to xml
 string ToXml(), alt spelling for ToXML()

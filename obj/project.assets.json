@@ -83,7 +83,7 @@
     "C:\\Users\\Noah Lie\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.5",
+    "version": "1.0.8",
     "restore": {
       "projectUniqueName": "C:\\EDict\\EDict.csproj",
       "projectName": "MXPSQL.EDict",

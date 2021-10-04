@@ -21,7 +21,7 @@ namespace MXPSQL.EDict{
         };
     }
     // extensible dictionary
-    public class ExtDictionary<TKey, TValue> : Dictionary<TKey, TValue> where TValue : ICloneable, IFormattable
+    public class ExtDictionary<TKey, TValue> : Dictionary<TKey, TValue>, IFormattable where TValue : ICloneable
     {
         // original code
         /*
@@ -136,6 +136,10 @@ namespace MXPSQL.EDict{
             return ToCsv();
         }
 
+        public string ToString(string? format, IFormatProvider? formatProvider){
+            return ToCvs();
+        }
+
         public string ToXML(){
             string json = ToJson();
             XNode node = JsonConvert.DeserializeXNode(json, "Root");
@@ -144,10 +148,6 @@ namespace MXPSQL.EDict{
 
         public string ToXml(){
             return ToXML();
-        }
-
-        public override string ToString(){
-            return ToCvs();
         }
     }
 }
