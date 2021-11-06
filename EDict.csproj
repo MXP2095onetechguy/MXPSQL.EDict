@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <PackageId>MXPSQL.EDict</PackageId>
-    <Version>1.0.8</Version>
+    <Version>1.0.9</Version>
     <Authors>MXPSQL</Authors>
     <Company>MXPSQL</Company>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>

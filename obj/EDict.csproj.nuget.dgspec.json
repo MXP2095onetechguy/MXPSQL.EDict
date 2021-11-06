@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EDict\\EDict.csproj": {}
+    "C:\\MXPSQL.EDict\\EDict.csproj": {}
   },
   "projects": {
-    "C:\\EDict\\EDict.csproj": {
-      "version": "1.0.8",
+    "C:\\MXPSQL.EDict\\EDict.csproj": {
+      "version": "1.0.9",
       "restore": {
-        "projectUniqueName": "C:\\EDict\\EDict.csproj",
+        "projectUniqueName": "C:\\MXPSQL.EDict\\EDict.csproj",
         "projectName": "MXPSQL.EDict",
-        "projectPath": "C:\\EDict\\EDict.csproj",
+        "projectPath": "C:\\MXPSQL.EDict\\EDict.csproj",
         "packagesPath": "C:\\Users\\Noah Lie\\.nuget\\packages\\",
-        "outputPath": "C:\\EDict\\obj\\",
+        "outputPath": "C:\\MXPSQL.EDict\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Noah Lie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "CsvHelper": {
               "target": "Package",
@@ -58,7 +58,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
